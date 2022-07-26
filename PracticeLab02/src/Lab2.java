@@ -14,7 +14,7 @@ public class Lab2 {
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		Integer [] DATA1 = new Integer [25];
-		System.out.println(DATA1.length);
+		System.out.println("Amount of integers: "+DATA1.length);
 		
 		for(int x = 0; x < DATA1.length; x++) {
 			DATA1[x] = (int)(Math.random()*200)+1;
@@ -77,6 +77,7 @@ public class Lab2 {
 			smallest = small;
 		}
 		
+		System.out.print("The integers in order: ");
 		//print the array to check it
 		for(int x = 0; x < DATA2.length; x++) {
 			System.out.print(DATA2[x]+" ");
